@@ -1,0 +1,120 @@
+/* Global Styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  #e2cccc;
+  color: #333;
+}
+
+header {
+  font-style: sans-serif;
+  background-color: #282c34 ;
+  padding: 12px 0;
+}
+
+a {
+  color: wheat;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+ 
+}
+
+nav ul li a:hover {
+  color: #ab9cb3;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: left;
+  font-family:  'Arial', sans-serif;
+}
+
+.dark-section {
+  background-color: #282c34;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  animation: fadeInDown 1.5s ease-in-out;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#skills p{
+  
+  border:2px solid rgb(231, 208, 208);
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px solid;
+  margin: 10px;
+  
+  color: #333;
+  box-shadow: 2px 2px 8px whitesmoke;
+  flex-direction: row;
+  justify-content: center;
+}
+#skills p:hover{
+  background-color: rgb(221, 181, 181);
+
+}
+#education{
+  text-align: center;
+}
+#contact a{
+  color:#333;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
